@@ -103,8 +103,8 @@ return i;
 		
 	</center>
 
-	<a class="current" href="lands.php"><span>View<br>Lands</span></a>
-	<a class="current1" href="house.php"><span>View<br>Houses</span></a>
+	<a class="current" href="land_add.php"><span>Add Your<br>Lands</span></a>
+	<a class="current1" href="house_add.php"><span>Add your<br>Houses</span></a>
 	
 	</div>
 		

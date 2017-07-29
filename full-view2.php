@@ -305,7 +305,8 @@ $user_name = $user_row['user_fname'] ." " . $user_row['user_lname'];*/
 			<!--<img src="admin/images/house/pics/<?php// echo  $cat_row['image_name'];?>" width="100%" />-->
 		</div>
 		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-		<p >Location : <?php echo  $cat_row['house_location']; ?></p>
+		<h3>Address</h3><br>
+		<p>Location : <?php echo  $cat_row['house_location']; ?></p>
 		<p>Price : <?php echo  $cat_row['house_price']; ?></p>
 		<p>Size : <?php echo  $cat_row['house_size']; ?>&nbsp;&nbsp;<?php echo  $cat_row['house_perches']; ?></p>
 		

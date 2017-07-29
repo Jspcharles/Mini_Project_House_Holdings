@@ -144,7 +144,9 @@ $page_set2=mysql_query( $result2);
 		</div>
 		
 	    <a class="btn btn-default" role="button" >Back</a>
-	    <a class="btn btn-default" role="button" >Clear</a>
+	    <button class="btn btn-default" type="reset">Clear</button>
+
+
 	    <input class="btn btn-success pull-right" type="submit" name="submit" value="submit">
 	   
 <!--

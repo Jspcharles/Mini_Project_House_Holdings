@@ -67,17 +67,24 @@
             <h1 style="margin-top: 30px;"><a href="index.php" style="color:white; text-decoration: none; margin-left: 1em; font-size: 35px;"><span style="color:415377">MYLAND </span><span>PROPERTY DEVELOPERS HOLDINGS (PVT) LTD</span></a></h1>
             
         </div>
+        <div style="color: white">
+            &nbsp&nbsp&nbspDate: <span id="txt2"></span>  
+            <script>  
+            var today=new Date();   
+            document.getElementById('txt2').innerHTML=today;  
+            </script>
+        </div>
    </div> 
 
     <div>
     <div id='cssmenu'>
         <ul>
-            <li class='backgroundmenu'><a href="index.php" class="y">Home</a></li>
-            <li class='backgroundmenu'><a href="company-profile.php" class="y"><i ></i>About Us</a></li>
-                    <li class='backgroundmenu'><a href="lands.php" class="y"><i ></i>Lands</a></li>
-                    <li class='backgroundmenu'><a href="house.php" class="y"><i ></i>Houses</a></li>
+            <li class='backgroundmenu'><a href="index.php" class="y">HOME</a></li>
+            <li class='backgroundmenu'><a href="company-profile.php" class="y"><i ></i>ABOUT US</a></li>
+                    <li class='backgroundmenu'><a href="lands.php" class="y"><i ></i>LANDS</a></li>
+                    <li class='backgroundmenu'><a href="house.php" class="y"><i ></i>HOUSES</a></li>
                     <li class="active has-sub" style="text-align:left;">
-                        <a class="dropdown-toggle y"  data-toggle="dropdown" href="#">Services</a>
+                        <a class="dropdown-toggle y"  data-toggle="dropdown" href="#">SERVICES</a>
                                 <ul class="dropdown-menu dropdown-content x">   
                                     <li class='x'><a href="value.php">Buy and sell property lands & Houses</a></li>
                                     <li class='x'><a href="sell.php">House Valuation</a></li>                                   
@@ -85,7 +92,14 @@
                                     <li class='x'><a href="ProvidingDocumentsforBankLoans.php">Providing Documents for Bank Loans</a></li>                                
                                 </ul>
                     </li>
-                    <li class='backgroundmenu'><a href="careers2.php" class="y"><i ></i>Work with us</a></li>
+                    <li class='backgroundmenu'><a href="careers2.php" class="y"><i ></i>WORK WITH US</a></li>
+                    <li class="active has-sub" style="text-align:left;">
+                        <a class="dropdown-toggle y"  data-toggle="dropdown" href="#">PUBLISH</a>
+                                <ul class="dropdown-menu dropdown-content x">   
+                                    <li class='x'><a href="land_add.php">Publish your Land</a></li>
+                                    <li class='x'><a href="house_add.php">Pudlish your House</a></li>                                 
+                                </ul>
+                    </li>
         </ul>
     </div>
     </div>
@@ -102,6 +116,7 @@
                     <li><img src="demo/img/visual_slide02.jpg" alt="slide image" /></li>
                     <li><img src="demo/img/img1.jpg" alt="slide image" /></li>
                     <li><img src="demo/img/visual_slide03.jpg" alt="slide image" /></li>
+                    <li><img src="demo/img/visual_slide04.jpg" alt="slide image" /></li>
                     
                 </ul>
                 

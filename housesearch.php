@@ -23,7 +23,7 @@ $cat_row = mysql_fetch_array($select_ad_table);
 ?>
 
 <!DOCTYPE html>
-<?php include 'header.php'; ?>
+<?php include 'header3.php'; ?>
 
 	
 	<div class="content">
@@ -34,15 +34,15 @@ $cat_row = mysql_fetch_array($select_ad_table);
 			
 				
 					
-					<h4 class="tabgreen">DISTRICTS</h4><br>
+					<h4 class="tabgreen" style="color: black">DISTRICTS</h4><br>
 			
 					<?php while($row = mysql_fetch_assoc($page_set1)) { ?>
-						<li><a href='housesearch.php?page=housesearch&cat=<?php echo $row['districts']; ?>' class="tabgreen1"><?php echo  $row['districts'];?></a></li>
+						<li><a style="color: black" href='housesearch.php?page=housesearch&cat=<?php echo $row['districts']; ?>' class="tabgreen1"><?php echo  $row['districts'];?></a></li>
 					<?php } ?>
 					
 					
 					<?php while($row = mysql_fetch_assoc($page_set2)) { ?>
-						<li><a href='housesearch.php?page=housesearch&cat=<?php echo $row['disticts']; ?>' class="tabgreen1"><?php echo  $row['disticts'];?></a></li>
+						<li><a style="color: black" href='housesearch.php?page=housesearch&cat=<?php echo $row['disticts']; ?>' class="tabgreen1"><?php echo  $row['disticts'];?></a></li>
 					<?php } ?>
 						
 					
@@ -56,7 +56,7 @@ $cat_row = mysql_fetch_array($select_ad_table);
 		<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 landth">
 		<div>
 			<form method="POST" action="search-view2.php" class=".search-line-wide">
-				<div class="clear-fix search-line">
+				<div class="clear-fix search-line" style="background-color: #1a1a1a">
 					<div class='col-lg-3 clo-md-3 col-sm-3 col-xs-4'>
 					<select class="form-control" type="text" name="location">
 								<option value="Colombo">Colombo</option>
@@ -90,7 +90,7 @@ $cat_row = mysql_fetch_array($select_ad_table);
 					
 					<input name="sPrice" class="pc tab" value="" placeholder="Your Budget ?">
 					<input type='submit' value='Search'>
-					<button type='button' class='button13' style='float:right;'><a href='index.php'>Publish add</a></button>	
+					<a href="charles_add.php">Publish add</a>	
 					<style>
 					.button13{
 						width: auto !important;

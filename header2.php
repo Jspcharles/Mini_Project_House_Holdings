@@ -77,26 +77,40 @@
             <h1 style="margin-top: 30px;"><a href="index.php" style="color:white; text-decoration: none; margin-left: 1em; font-size: 35px"><span style="color:415377">MYLAND </span><span>PROPERTY DEVELOPERS & CONSTRUCTIONS (PVT) LTD</span></a></h1>
             
         </div>
+        <div style="color: white">
+            &nbsp&nbsp&nbspDate: <span id="txt2"></span>  
+            <script>  
+            var today=new Date();   
+            document.getElementById('txt2').innerHTML=today;  
+            </script>
+        </div>
        
     </div> 
 
     <div>
     <div id='cssmenu'>
         <ul>
-            <li class='backgroundmenu'><a href="index.php" class="y">Home</a></li>
-            <li class='backgroundmenu'><a href="company-profile.php" class="y"><i ></i>About Us</a></li>
-                    <li class='backgroundmenu'><a href="lands.php" class="y"><i ></i>Lands</a></li>
-                    <li class='backgroundmenu'><a href="house.php" class="y"><i ></i>Houses</a></li>
+            <li class='backgroundmenu'><a href="index.php" class="y">HOME</a></li>
+            <li class='backgroundmenu'><a href="company-profile.php" class="y"><i ></i>ABOUT US</a></li>
+                    <li class='backgroundmenu'><a href="lands.php" class="y"><i ></i>LANDS</a></li>
+                    <li class='backgroundmenu'><a href="house.php" class="y"><i ></i>HOUSES</a></li>
                     <li class="active has-sub" style="text-align:left;">
-                        <a class="dropdown-toggle y"  data-toggle="dropdown" href="#">Services</a>
+                        <a class="dropdown-toggle y"  data-toggle="dropdown" href="#">SERVICES</a>
                                 <ul class="dropdown-menu dropdown-content x">   
                                     <li class='x'><a href="value.php">Buy and sell property lands & Houses</a></li>
                                     <li class='x'><a href="sell.php">House Valuation</a></li>                                   
                                     <li class='x'><a href="LANDSURVEYANDESTIMATES.php">Land Survey</a></li>
-                                    <li class='x'><a href="ProvidingDocumentsforBankLoans.php">Providing Documents for Bank Loans</a></li>                                  
+                                    <li class='x'><a href="ProvidingDocumentsforBankLoans.php">Providing Documents for Bank Loans</a></li>                                
                                 </ul>
                     </li>
-                    <li class='backgroundmenu'><a href="careers2.php" class="y"><i ></i>Work with us</a></li>
+                    <li class='backgroundmenu'><a href="careers2.php" class="y"><i ></i>WORK WITH US</a></li>
+                    <li class="active has-sub" style="text-align:left;">
+                        <a class="dropdown-toggle y"  data-toggle="dropdown" href="#">PUBLISH</a>
+                                <ul class="dropdown-menu dropdown-content x">   
+                                    <li class='x'><a href="land_add.php">Publish your Land</a></li>
+                                    <li class='x'><a href="house_add.php">Pudlish your House</a></li>                                 
+                                </ul>
+                    </li>
         </ul>
     </div>
     </div>
@@ -112,28 +126,28 @@
             <ul>
             <li id="first" class="firstanimation">
             
-            <img src="images/img_1.jpg"/>
+            <img src="images/image_1.jpg"/>
             
             </li>
 
             <li id="second" class="secondanimation">
             
-            <img src="images/img_2.jpg"/>
+            <img src="images/image_2.jpg"/>
             
             </li>
             
             <li id="third" class="thirdanimation">
            
-            <img src="images/img_3.jpg"/>
+            <img src="images/image_3.jpg"/>
             
             </li>
                         
             <li id="fourth" class="fourthanimation">
-            <img src="images/img_4.jpg"/>
+            <img src="images/image_4.jpg"/>
             </li>
                         
             <li id="fifth" class="fifthanimation">
-            <img src="images/img_5.png"/>
+            <img src="images/image_5.png"/>
             </li>
             </ul>
             </div>
@@ -179,7 +193,7 @@
             <tr>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
-              <td><input name="button" type="submit"></td>
+              <td><input name="button" type="submit" style="background-color: black"></td>
             </tr>
         </table>
       </form>

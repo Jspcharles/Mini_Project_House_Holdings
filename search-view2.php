@@ -47,19 +47,12 @@ $cat_row = mysql_fetch_array($select_ad_table);
 					<?php while($row = mysql_fetch_assoc($page_set2)) { ?>
 						<li><a href='housesearch.php?page=housesearch&cat=<?php echo $row['disticts']; ?>' class="tabgreen1"><?php echo  $row['disticts'];?></a></li>
 					<?php } ?>
-						
-					
-			
-				
 			</div>
-			
-			
-		
 		
 		<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 landth">
 		<div>
 			<form method="POST" action="search-view2.php" class=".search-line-wide">
-				<div class="clear-fix search-line">
+				<div class="clear-fix search-line" style="background-color: #1a1a1a">
 					<div class='col-lg-3 clo-md-3 col-sm-3 col-xs-4'>
 					<select class="form-control" type="text" name="location">
 								<option value="Colombo">Colombo</option>
@@ -86,9 +79,7 @@ $cat_row = mysql_fetch_array($select_ad_table);
 								<option value="Badulla">Badulla			</option>
 								<option value="Trincomalee">Trincomalee	</option>
 								<option value="Batticaloa">Batticaloa</option>
-								
-				
-					</select>
+\					</select>
 					</div>
 					
 					<input name="sPrice" class="pc tab" value="" placeholder="Your Budget ?">

@@ -22,16 +22,16 @@ $page_set2=mysql_query( $result2);
 			
 			
 				
-					<h4 class="tabgreen">DISTRICTS</h4><br>
+					<h4 class="tabgreen" style="color: black">DISTRICTS</h4><br>
 			
 					<?php while($row = mysql_fetch_assoc($page_set1)) { ?>
-						<li><a href='housesearch.php?page=housesearch&cat=<?php echo $row['districts']; ?>' class="tabgreen1"><?php echo  $row['districts'];?></a></li>
+						<li><a style="color: black" href='housesearch.php?page=housesearch&cat=<?php echo $row['districts']; ?>' class="tabgreen1" ><?php echo  $row['districts'];?></a></li>
 					<?php } ?>
 					
 					
 		
 					<?php while($row = mysql_fetch_assoc($page_set2)) { ?>
-						<li><a href='housesearch.php?page=housesearch&cat=<?php echo $row['disticts']; ?>' class="tabgreen1"><?php echo  $row['disticts'];?></a></li>
+						<li><a style="color: black" href='housesearch.php?page=housesearch&cat=<?php echo $row['disticts']; ?>' class="tabgreen1"><?php echo  $row['disticts'];?></a></li>
 					<?php } ?>
 						
 				
@@ -78,7 +78,6 @@ $page_set2=mysql_query( $result2);
 					<input name="sPrice" class="pc tab" value="" placeholder="Your Budget ?">
 					<input type='submit' value='Search'>
 					
-					<a href="charles_add.php">Publish add</a>
 
 					<style>
 					.button13{

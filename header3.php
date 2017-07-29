@@ -74,31 +74,15 @@
             <h1 style="margin-top: 30px;"><a href="index.php" style="color:white; text-decoration: none; margin-left: 1em; font-size: 35px"><span style="color:415377">MYLAND </span><span>PROPERTY DEVELOPERS & CONSTRUCTIONS (PVT) LTD</span></a></h1>
             
         </div>
+        <div style="color: white">
+            &nbsp&nbsp&nbspDate: <span id="txt2"></span>  
+            <script>  
+            var today=new Date();   
+            document.getElementById('txt2').innerHTML=today;  
+            </script>
+        </div>
        
     </div> 
-
-    <div>
-    <div id='cssmenu'>
-        <ul>
-            <li class='backgroundmenu'><a href="index.php" class="y">Home</a></li>
-            <li class='backgroundmenu'><a href="company-profile.php" class="y"><i ></i>About Us</a></li>
-                    <li class='backgroundmenu'><a href="lands.php" class="y"><i ></i>Lands</a></li>
-                    <li class='backgroundmenu'><a href="house.php" class="y"><i ></i>Houses</a></li>
-                    <li class="active has-sub" style="text-align:left;">
-                        <a class="dropdown-toggle y"  data-toggle="dropdown" href="#">Services</a>
-                                <ul class="dropdown-menu dropdown-content x">   
-                                    <li class='x'><a href="value.php">Buy and sell property lands & Houses</a></li>
-                                    <li class='x'><a href="sell.php">House Valuation</a></li>                                   
-                                    <li class='x'><a href="LANDSURVEYANDESTIMATES.php">Land Survey</a></li>
-                                    <li class='x'><a href="ProvidingDocumentsforBankLoans.php">Providing Documents for Bank Loans</a></li>                                  
-                                </ul>
-                    </li>
-                    <li class='backgroundmenu'><a href="careers2.php" class="y"><i ></i>Work with us</a></li>
-        </ul>
-    </div>
-    </div>
-
-
     <br>
     <!-- *************************************************************************************************** -->
      
